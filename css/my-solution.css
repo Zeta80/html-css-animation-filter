@@ -70,16 +70,15 @@
 }
 
 .ex-10-icon {
-    animation: ruota 2s linear infinite;
+    animation: ruota 1s linear infinite;
 }
 
-@keyframe ruota {
-
-    from {
-        transform: rotate(0%);
+@keyframes ruota {
+    0% {
+        transform: rotate(0deg);
     }
 
-    to {
-        transform: rotate(100%);
+    100% {
+        transform: rotate(360deg);
     }
 }
